@@ -1,5 +1,5 @@
-# compPhysHw3
-# 1dWavePDE
+# Convergence of Roe's method with minmod slope limiter on Burger's equation
+
 This repository contains a code written by Will East and modified to solve Burger's equation with Roe's method and a minmod slope limiter. 
 
 It solves Burger's equation on the unit interval [0,1] with periodic boundary conditions. The initial condition is a sine wave. Because the solution to the partial differential equation admits the appearance of shocks, special care must be taken to solve it. The code implements the flux based method called Roe's method as an iterating scheme to evolve the conserved quantity. Additionally, the code uses a slope limiter called minmod to avoid spurious oscillations.
